@@ -33,6 +33,8 @@ public class ProgressBar3 {
         /////////////////////////
         Thread t=new Thread(){
             public void run(){
+                
+            
                 int i=0;
                 for(i=0; i<=100; i++){
                     progressBar.setProgress(i);
